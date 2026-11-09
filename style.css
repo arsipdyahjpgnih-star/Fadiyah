@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  border-radius: 5px;
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(73, 53, 43);
+}
+
+/* Warna Background */
+.bg-cokelat {
+  background-color: rgb(73, 53, 43);
+  color: rgb(255, 255, 255);
+}
+
+.bg-cokelat-tua {
+  background-color: rgb(56, 39, 31);
+  color: rgb(255, 255, 255);
+}
+
+.bg-teracotta {
+  background-color: rgb(166, 93, 63);
+  color: rgb(255, 255, 255);
+}
+
+.bg-cream {
+  background-color: rgb(244, 235, 221);
+  color: rgb(73, 53, 43);
+}
+
+.bg-putih {
+  background-color: rgb(255, 253, 248);
+  color: rgb(73, 53, 48);
+}
+
+/* Ukuran Font */
+.fz-1 {
+  font-size: 0.5rem;
+}
+
+.fz-2 {
+  font-size: 0.7rem;
+}
+
+.fz-3 {
+  font-size: 1rem;
+}
+
+.fz-4 {
+  font-size: 1.2rem;
+}
+
+.fz-5 {
+  font-size: 1.5rem;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+}
+
+/* Padding */
+.p-1 {
+  padding: 5px;
+}
+
+.p-2 {
+  padding: 10px;
+}
+
+.p-3 {
+  padding: 15px;
+}
+
+.p-4 {
+  padding: 20px;
+}
+
+.p-5 {
+  padding: 30px;
+}
+
+/* Margin */
+.m-1 {
+  margin: 5px;
+}
+
+.m-2 {
+  margin: 10px;
+}
+
+.m-3 {
+  margin: 15px;
+}
+
+.m-4 {
+  margin: 20px;
+}
+
+.m-5 {
+  margin: 25px;
+}
+
+.mb-1 {
+  margin-bottom: 5px;
+}
+
+.mb-2 {
+  margin-bottom: 10px;
+}
+
+.mb-3 {
+  margin-bottom: 15px;
+}
+
+.mb-4 {
+  margin-bottom: 20px;
+}
+
+.mb-5 {
+  margin-bottom: 25px;
+}
+
+/* Tengah Teks */
+.ta-c {
+  text-align: center;
+}
+
+/* Tombol */
+.tombol {
+  display: inline-block;
+  background-color: rgb(217, 164, 65);
+  color: rgb(73, 53, 43);
+  padding: 10px 20px;
+}
+
+.tombol-putih {
+  background-color: rgb(255, 253, 248);
+  color: rgb(73, 53, 43);
+  border: solid 1px rgb(166, 93, 63);
+}
+
+/* Gambar */
+.gambar {
+  width: 100%;
+}
+
+.ikon {
+  width: 45px;
+  height: 45px;
+  margin-bottom: 10px;
+}
+
+/* Kartu Budaya */
+.kartu {
+  background-color: rgb(255, 253, 248);
+  color: rgb(73, 53, 43);
+  border: solid 1px rgb(233, 217, 197);
+  padding: 15px;
+  text-align: center;
+}
+
+.kartu img {
+  margin-bottom: 10px;
+}
+
+.kartu h3 {
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.kartu p {
+  color: rgb(113, 91, 75);
+  text-align: center;
+}
+
+/* Kartu Galeri */
+.kartu-galeri {
+  background-color: rgb(255, 253, 248);
+  border: solid 1px rgb(233, 217, 197);
+  padding: 10px;
+}
+
+.kartu-galeri img {
+  width: 100%;
+}
+
+.kartu-galeri p {
+  text-align: center;
+  margin-top: 5px;
+}
+
+/* Tampilan HP */
+.tentang {
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.tiga-kolom {
+  grid-template-columns: 1fr;
+  gap: 5px;
+}
+
+.galeri {
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+/* Tablet */
+@media (min-width: 600px) {
+  .tentang {
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+
+  .tiga-kolom {
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+
+  .galeri {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .ikon {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* Laptop */
+@media (min-width: 1000px) {
+  .tentang {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  .tiga-kolom {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .galeri {
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+  }
+
+  .ikon {
+    width: 60px;
+    height: 60px;
+  }
+}
